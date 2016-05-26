@@ -1,0 +1,13 @@
+{
+    "name": "wwwision/userlikes",
+    "type": "typo3-flow-package",
+    "description": "Simple package for managing user-based \"likes\"  or \"recommendations\" using Event Sourcing",
+    "require": {
+        "wwwision/eventr": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wwwision\\UserLikes\\": "Classes"
+        }
+    }
+}
