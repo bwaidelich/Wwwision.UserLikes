@@ -84,10 +84,25 @@ class LikeService
      */
     public function getSubject($subjectId)
     {
+        /** @var Subject $subject */
         $subject = $this->subjectRepository->findByIdentifier($subjectId);
         if ($subject !== null) {
             return $subject;
         }
         return new Subject($subjectId);
+    }
+
+    /**
+     * @param string $subjectId
+     * @return int
+     */
+    public function getNumberOfLikesBySubject($subjectId)
+    {
+        /** @var Subject $subject */
+        $subject = $this->subjectRepository->findByIdentifier($subjectId);
+        if ($subject !== null) {
+            return $subject->getNumberOfLikes();
+        }
+        return 0;
     }
 }
