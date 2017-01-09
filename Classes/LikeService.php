@@ -1,7 +1,7 @@
 <?php
 namespace Wwwision\UserLikes;
 
-use TYPO3\Flow\Annotations as Flow;
+use Neos\Flow\Annotations as Flow;
 use Wwwision\Eventr\Eventr;
 use Wwwision\Eventr\ExpectedVersion;
 use Wwwision\UserLikes\Domain\Model\Subject;
