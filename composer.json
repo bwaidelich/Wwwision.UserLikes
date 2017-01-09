@@ -1,6 +1,6 @@
 {
     "name": "wwwision/userlikes",
-    "type": "typo3-flow-package",
+    "type": "neos-package",
     "description": "Simple package for managing user-based \"likes\"  or \"recommendations\" using Event Sourcing",
     "license": "MIT",
     "require": {
