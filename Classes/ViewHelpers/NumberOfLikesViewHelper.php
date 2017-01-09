@@ -3,7 +3,7 @@ namespace Wwwision\UserLikes\ViewHelpers;
 
 use Neos\Flow\Annotations as Flow;
 use Neos\Flow\Persistence\PersistenceManagerInterface;
-use TYPO3\Fluid\Core\ViewHelper\AbstractViewHelper;
+use Neos\FluidAdaptor\Core\ViewHelper\AbstractViewHelper;
 use Wwwision\UserLikes\LikeService;
 
 /**
