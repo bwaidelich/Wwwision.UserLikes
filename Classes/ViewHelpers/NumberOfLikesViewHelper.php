@@ -1,9 +1,9 @@
 <?php
 namespace Wwwision\UserLikes\ViewHelpers;
 
-use TYPO3\Flow\Annotations as Flow;
-use TYPO3\Flow\Persistence\PersistenceManagerInterface;
-use TYPO3\Fluid\Core\ViewHelper\AbstractViewHelper;
+use Neos\Flow\Annotations as Flow;
+use Neos\Flow\Persistence\PersistenceManagerInterface;
+use Neos\FluidAdaptor\Core\ViewHelper\AbstractViewHelper;
 use Wwwision\UserLikes\LikeService;
 
 /**
