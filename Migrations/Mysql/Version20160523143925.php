@@ -2,7 +2,7 @@
 namespace Neos\Flow\Persistence\Doctrine\Migrations;
 
 use Doctrine\DBAL\Schema\Schema;
-use TYPO3\Eel\Helper\ArrayHelper;
+use Neos\Eel\Helper\ArrayHelper;
 use Wwwision\Eventr\Adapters\Doctrine\ProjectionHandler;
 use Wwwision\Eventr\Domain\Dto\ProjectionConfiguration;
 use Wwwision\Eventr\Migrations\AbstractEventrMigration;
